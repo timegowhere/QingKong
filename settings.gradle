@@ -1,1 +1,1 @@
-include ':app', ':weixin'
+include ':app', ':weixin', ':FilesGo'
