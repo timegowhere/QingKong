@@ -1,9 +1,11 @@
-package com.qingkong.filesgo;
+package com.qingkong.filesgo.home;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import com.qingkong.filesgo.R;
+
+public class HomeActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

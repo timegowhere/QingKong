@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="@string/settings_screen_key">
+    <PreferenceCategory
+        android:key="@string/settings_notification_category_key"
+        android:title="@string/settings_notification_category_title">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/settings_notification_free_up_space_key"
+            android:persistent="true"
+            android:summary="@string/settings_notification_free_up_space_summary"
+            android:title="@string/settings_notification_free_up_space_title" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/settings_notification_unused_apps_key"
+            android:persistent="true"
+            android:summary="@string/settings_notification_unused_apps_summary"
+            android:title="@string/settings_notification_unused_apps_title" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/settings_notification_downloaded_files_key"
+            android:persistent="true"
+            android:summary="@string/settings_notification_downloaded_files_summary"
+            android:title="@string/settings_notification_downloaded_files_title" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/settings_notification_offline_messenger_images_key"
+            android:persistent="true"
+            android:summary="@string/settings_notification_offline_messenger_images_summary"
+            android:title="@string/settings_notification_offline_messenger_images_title" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/settings_notification_duplicate_files_key"
+            android:persistent="true"
+            android:summary="@string/settings_notification_duplicate_files_summary"
+            android:title="@string/settings_notification_duplicate_files_title" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="@string/settings_other_category_key"
+        android:title="@string/settings_other_category_title">
+        <Preference
+            android:key="@string/settings_change_name_key"
+            android:summary="@string/settings_change_name_summary"
+            android:title="@string/settings_change_name_title">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://www.example.com" />
+        </Preference>
+        <Preference
+            android:key="@string/settings_language_picker_key"
+            android:title="@string/settings_language_picker_title" />
+    </PreferenceCategory>
+</PreferenceScreen>

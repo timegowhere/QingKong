@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="design_default_color_palette_primary" />
+    <array name="design_default_color_palette_secondary" />
+    <array name="material_google_colors">
+        <item>@color/quantum_googblue</item>
+        <item>@color/quantum_googred</item>
+        <item>@color/quantum_googyellow</item>
+        <item>@color/quantum_googgreen</item>
+    </array>
+    <string-array name="special_locale_names">
+        <item>العربية</item>
+        <item>中文 (简体)</item>
+        <item>中文 (繁體)</item>
+    </string-array>
+</resources>

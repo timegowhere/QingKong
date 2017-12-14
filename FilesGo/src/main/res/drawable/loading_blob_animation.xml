@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:id="@id/selected" android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="@integer/loading_blob_single_frame_duration" android:drawable="@drawable/ic_loading_a01" />
+    <item android:duration="@integer/loading_blob_single_frame_duration" android:drawable="@drawable/ic_loading_a02" />
+    <item android:duration="@integer/loading_blob_single_frame_duration" android:drawable="@drawable/ic_loading_a03" />
+    <item android:duration="@integer/loading_blob_single_frame_duration" android:drawable="@drawable/ic_loading_a04" />
+    <item android:duration="@integer/loading_blob_single_frame_duration" android:drawable="@drawable/ic_loading_a05" />
+    <item android:duration="@integer/loading_blob_single_frame_duration" android:drawable="@drawable/ic_loading_a06" />
+    <item android:duration="@integer/loading_blob_single_frame_duration" android:drawable="@drawable/ic_loading_a07" />
+    <item android:duration="@integer/loading_blob_single_frame_duration" android:drawable="@drawable/ic_loading_a08" />
+    <item android:duration="@integer/loading_blob_single_frame_duration" android:drawable="@drawable/ic_loading_a09" />
+    <item android:duration="@integer/loading_blob_single_frame_duration" android:drawable="@drawable/ic_loading_a10" />
+    <item android:duration="@integer/loading_blob_single_frame_duration" android:drawable="@drawable/ic_loading_a01" />
+    <item android:duration="@integer/loading_blob_single_frame_duration" android:drawable="@drawable/ic_loading_a01" />
+</animation-list>

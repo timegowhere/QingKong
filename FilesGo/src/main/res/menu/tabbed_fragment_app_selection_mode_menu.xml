@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/quantum_ic_share_vd_theme_24" android:id="@id/share_action" android:title="@string/file_browser_regular_selection_mode_share" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/quantum_ic_delete_vd_theme_24" android:id="@id/delete_action" android:title="@string/file_browser_menu_item_delete" app:showAsAction="never" />
+    <item android:id="@id/select_all_action" android:title="@string/file_browser_menu_item_select_all" app:showAsAction="never" />
+    <item android:id="@id/show_app_info_action" android:title="@string/app_browser_menu_item_app_info" app:showAsAction="never" />
+    <item android:id="@id/clear_cache_action" android:title="@string/app_browser_menu_item_clear_cache" app:showAsAction="never" />
+    <item android:id="@id/uninstall_action" android:title="@string/app_browser_menu_item_uninstall" app:showAsAction="never" />
+</menu>

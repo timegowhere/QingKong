@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/popup_select" android:title="@string/file_browser_popup_select" app:showAsAction="never" />
+    <item android:id="@id/popup_copy_to_sd_card" android:title="@string/file_browser_menu_item_copy_to_sd" app:showAsAction="never" />
+    <item android:id="@id/popup_move_to_sd_card" android:title="@string/file_browser_menu_item_move_to_sd" app:showAsAction="never" />
+    <item android:id="@id/popup_rename" android:title="@string/file_browser_menu_item_rename" app:showAsAction="never" />
+    <item android:id="@id/popup_share" android:title="@string/file_browser_regular_selection_mode_share" app:showAsAction="never" />
+    <item android:id="@id/popup_file_info" android:title="@string/file_browser_menu_item_file_info" app:showAsAction="never" />
+    <item android:id="@id/popup_delete" android:title="@string/file_browser_menu_item_delete" app:showAsAction="never" />
+    <item android:id="@id/popup_install" android:title="@string/file_browser_menu_item_install" app:showAsAction="never" />
+</menu>
