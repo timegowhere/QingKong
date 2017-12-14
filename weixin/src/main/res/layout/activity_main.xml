@@ -46,7 +46,7 @@
             android:layout_weight="1"
             android:padding="5dp"
             app:color="#ff45c01a"
-            app:icon="@drawable/ic_menu_emoticons"
+            app:icon="@mipmap/menu_tab_find"
             app:text="@string/tab_found"
             app:text_size="12sp" />
 
